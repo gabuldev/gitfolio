@@ -9,7 +9,7 @@
         "clean": "rm -rf ./dist/*",
         "prettier": "prettier --write \"./**/*.{js,jsx,json,html,css,md}\"",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "gitfolio build gabuldev --fork --theme dark && gitfolio run"
+        "start": "gitfolio build gabuldev --fork --theme dark --sort star --order desc && gitfolio run"
     },
     "author": {
         "name": "@imfunniee and community",
